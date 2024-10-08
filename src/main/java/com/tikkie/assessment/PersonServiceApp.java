@@ -16,7 +16,7 @@ public class PersonServiceApp {
 
         new PersonServiceStack(app, "PersonServiceStack", StackProps.builder()
                 .env(Environment.builder()
-                        .account("869935063528")
+                        .account("Please enter a valid AWS account")
                         .region(Region.EU_CENTRAL_1.id())
                         .build())
                 .build());
