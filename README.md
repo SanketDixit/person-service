@@ -57,3 +57,4 @@ This would allow multiple services to access the same encryption and decryption 
 event publishing fails due to network issues or other transient errors.
 * **Data Indexing**: Implement indexing on the DynamoDB table to improve query performance when fetching data 
 by personId
+* **Swagger Documentation**: Generate Swagger documentation for the API endpoints to facilitate easier integration
